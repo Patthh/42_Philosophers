@@ -6,7 +6,7 @@
 /*   By: pracksaw <pracksaw@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/26 09:13:50 by pracksaw          #+#    #+#             */
-/*   Updated: 2025/02/04 20:25:12 by pracksaw         ###   ########.fr       */
+/*   Updated: 2025/02/04 23:49:54 by pracksaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,5 +84,8 @@ void					smart_sleep(long long time, t_rules *rules);
 int						launcher(t_rules *rules);
 void					exit_launcher(t_rules *rules, t_philo *philos);
 void					philo_eats(t_philo *philo);
+
+void					acquire_forks(t_philo *philo);
+void					*p_thread(void *void_philo);
 
 #endif

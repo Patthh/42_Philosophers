@@ -6,7 +6,7 @@
 #    By: pracksaw <pracksaw@student.42bangkok.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/04 23:10:19 by pracksaw          #+#    #+#              #
-#    Updated: 2025/02/04 23:17:32 by pracksaw         ###   ########.fr        #
+#    Updated: 2025/02/04 23:48:11 by pracksaw         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,9 @@ RM				=	rm -rf
 ## SOURCES
 SRCS = \
         $(DIR_SRC)/philo.c \
-        $(DIR_SRC)/utils.c \
+        $(DIR_SRC)/ft_utils.c \
+		$(DIR_SRC)/init_n_err.c \
+		$(DIR_SRC)/threads.c \
 
 OBJS			=	$(SRCS:.c=.o)
 DEPS			=	$(OBJS:.o=.d)
