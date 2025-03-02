@@ -20,7 +20,7 @@ The goal of this project is to teach students about threads, mutexes, and the co
 <details>
 <summary><b>Project completion status</b></summary><br>
 <p align="center">
-💯/💯
+Completed on : 2025-02-05 <br> 100/100
 </p>
 </details>
 
