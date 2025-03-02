@@ -86,5 +86,5 @@ Example:
 
 ---
 <div align="center">
-  <p>Made with a lot of thoughts</p>
+  <p>Made with 💭💭💭s</p>
 </div>
